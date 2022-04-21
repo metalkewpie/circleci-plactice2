@@ -17,10 +17,15 @@ jobs:
       - browser-tools/install-chrome
       - run: npm install testcafe
       - run: npm install dayjs
+      - run: npm install testcafe-reporter-html
       - run: mkdir test-reports
-      - run: npx testcafe chrome:headless No001No002No003.ts --html=test-reports/report.html --self-contained-html
+      #- run: npx testcafe chrome:headless No001No002No003.ts --html=test-reports/report.html --self-contained-html
+      - run: npx testcafe chrome:headless No001No002No003.ts --reporter html:test-results/file.html
+      - store_artifacts:
+          path: test-reports/
+          destination: test-reports
       - store_test_results:
-          path: /tmp/test-results
+          path: test-results
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
