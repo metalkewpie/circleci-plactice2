@@ -19,7 +19,7 @@ jobs:
           command: 
             npm install testcafe
             npm install dayjs
-            testcafe chrome:headless No001No002No003.ts
+            npx testcafe chrome:headless No001No002No003.ts
       #- store_test_results:
           #path: /tmp/test-results
 
