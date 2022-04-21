@@ -26,9 +26,9 @@ jobs:
       - run: npx testcafe chrome:headless No001No002No003.ts --reporter html:tmp/test-results/report_file.html
       - store_test_results:
           path: /tmp/test-results
-      - store_artifacts:
-          path: /tmp/No001No002No003
-          destination: artifact-file
+      #- store_artifacts:
+      #    path: /tmp/No001No002No003
+      #    destination: artifact-file
       #- store_artifacts:
       #    path: /tmp/No001No002No003
       #- store_artifacts:
