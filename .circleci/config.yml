@@ -22,12 +22,12 @@ jobs:
                    npm install testcafe-reporter-html;
                    mkdir -p tmp/No001No002No003;
       #- run: npx testcafe chrome:headless No001No002No003.ts --html=test-reports/report.html --self-contained-html
-      - run: npx testcafe chrome:headless No001No002No003.ts --reporter html:tmp/No001No002No003/file.html
+      - run: npx testcafe chrome:headless No001No002No003.ts --reporter html:tmp/No001No002No003/report_file.html
       - store_artifacts:
           path: /tmp/No001No002No003
-          #destination: artifact-file
-      - store_artifacts:
-          path: /tmp/No001No002No003
+          destination: report_file
+      #- store_artifacts:
+      #    path: /tmp/No001No002No003
       #- store_artifacts:
       #    path: test-reports/
       #    destination: test-reports
