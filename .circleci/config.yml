@@ -20,12 +20,13 @@ jobs:
           command: npm install testcafe;
                    npm install dayjs;
                    npm install testcafe-reporter-html;
-                   mkdir /tmp/No001No002No003;
+                   mkdir tmp;
+                   mkdir ./tmp/No001No002No003;
       #- run: npx testcafe chrome:headless No001No002No003.ts --html=test-reports/report.html --self-contained-html
       - run: npx testcafe chrome:headless No001No002No003.ts --reporter html:tmp/No001No002No003/file.html
       - store_artifacts:
           path: /tmp/No001No002No003
-          destination: artifact-file
+          #destination: artifact-file
       - store_artifacts:
           path: /tmp/No001No002No003
       #- store_artifacts:
