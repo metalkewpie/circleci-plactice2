@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="TestCafe Tests: Chrome 100.0.4896.127 / macOS 10.15.7" tests="11" failures="0" skipped="0" errors="0" time="32.679" timestamp="Fri, 22 Apr 2022 05:41:57 GMT" >
+  <testcase classname="CUBE New Item" file="/Users/kazuo.kikuoka/Documents/GitHub/circleci-plactice2/No001No002No003.ts" name="No001 : Count new products" time="3.15">
+  </testcase>
+  <testcase classname="CUBE New Item" file="/Users/kazuo.kikuoka/Documents/GitHub/circleci-plactice2/No001No002No003.ts" name="No002 : Compare TotalAmount" time="3.171">
+  </testcase>
+  <testcase classname="CUBE New Item" file="/Users/kazuo.kikuoka/Documents/GitHub/circleci-plactice2/No001No002No003.ts" name="No002 : Compare TotalAmount" time="2.967">
+  </testcase>
+  <testcase classname="CUBE New Item" file="/Users/kazuo.kikuoka/Documents/GitHub/circleci-plactice2/No001No002No003.ts" name="No002 : Compare TotalAmount" time="3.076">
+  </testcase>
+  <testcase classname="CUBE New Item" file="/Users/kazuo.kikuoka/Documents/GitHub/circleci-plactice2/No001No002No003.ts" name="No002 : Compare TotalAmount" time="3.198">
+  </testcase>
+  <testcase classname="CUBE New Item" file="/Users/kazuo.kikuoka/Documents/GitHub/circleci-plactice2/No001No002No003.ts" name="No002 : Compare TotalAmount" time="3.129">
+  </testcase>
+  <testcase classname="CUBE New Item" file="/Users/kazuo.kikuoka/Documents/GitHub/circleci-plactice2/No001No002No003.ts" name="No002 : Compare TotalAmount" time="3.228">
+  </testcase>
+  <testcase classname="CUBE New Item" file="/Users/kazuo.kikuoka/Documents/GitHub/circleci-plactice2/No001No002No003.ts" name="No002 : Compare TotalAmount" time="2.993">
+  </testcase>
+  <testcase classname="CUBE New Item" file="/Users/kazuo.kikuoka/Documents/GitHub/circleci-plactice2/No001No002No003.ts" name="No002 : Compare TotalAmount" time="2.949">
+  </testcase>
+  <testcase classname="CUBE New Item" file="/Users/kazuo.kikuoka/Documents/GitHub/circleci-plactice2/No001No002No003.ts" name="No002 : Compare TotalAmount" time="3.036">
+  </testcase>
+  <testcase classname="CUBE New Item" file="/Users/kazuo.kikuoka/Documents/GitHub/circleci-plactice2/No001No002No003.ts" name="No003 : Check warning" time="1.721">
+  </testcase>
+</testsuite>

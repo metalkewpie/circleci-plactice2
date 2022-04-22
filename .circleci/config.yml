@@ -22,7 +22,7 @@ jobs:
                    npm install testcafe-reporter-html;
                    mkdir -p /tmp/test-results;
                    #mkdir -p tmp/No001No002No003;
-      - run: npx testcafe chrome:headless No001No002No003.ts --reporter xunit:/tmp/test-results/report_file.xml
+      - run: npx testcafe chrome:headless No001No002No003.ts --reporter html:/tmp/test-results/html_report.html,xunit:/tmp/test-results/xml_report.xml
       - store_test_results:
           path: /tmp/test-results
       - store_artifacts:
