@@ -43,4 +43,6 @@ workflows:
             branches:
               only:
                 - main
+    jobs:
+      - test
 
